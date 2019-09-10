@@ -1,0 +1,23 @@
+{
+  "name": "express-gateway-plugin-exec",
+  "version": "1.0.7",
+  "description": "Plugin exec for Express Gateway",
+  "main": "manifest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crohit92/express-gateway-plugin-exec.git"
+  },
+  "keywords": [
+    "Execute",
+    "Arbitrary code"
+  ],
+  "author": "Rohit Chopra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crohit92/express-gateway-plugin-exec/issues"
+  },
+  "homepage": "https://github.com/crohit92/express-gateway-plugin-exec#readme"
+}

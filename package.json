@@ -1,6 +1,6 @@
 {
   "name": "express-gateway-plugin-exec",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Plugin exec for Express Gateway",
   "main": "manifest.js",
   "scripts": {

@@ -4,6 +4,7 @@
  *     - exec:
  *         - action:
  *             filePath: "./config/scripts/script.js"
+ *
  * ```
  */
 module.exports = {
@@ -13,6 +14,9 @@ module.exports = {
     properties: {
       filePath: {
         type: 'string'
+      },
+      params: {
+        type: 'object'
       }
     },
     required: ['filePath']
@@ -22,6 +26,7 @@ module.exports = {
       const middleware = require(`${__dirname}/../../../${
         actionParams.filePath
       }`);
+      req.actionParams = actionParams;
       middleware(req, res, next);
     };
   }

@@ -19,7 +19,9 @@ module.exports = {
   },
   policy: actionParams => {
     return (req, res, next) => {
-      const middleware = require(actionParams.filepath);
+      const middleware = require(`${__dirname}/../../../${
+        actionParams.filePath
+      }`);
       middleware(req, res, next);
     };
   }
